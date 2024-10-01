@@ -1,0 +1,138 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.top div {
+    width: 100%;
+    height: 65vh;
+}
+
+.down div {
+    width: 100%;
+    height: calc(35vh - 50px);
+}
+
+.top {
+    display: flex;
+}
+
+.down {
+    display: flex;
+}
+
+.top1 {
+    border: 3px solid rgb(0, 0, 200);
+    border-top-left-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#top1 {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgb(0, 0, 200);
+    transition: all 0.3s ease-in-out;
+}
+
+.top2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.top2 div {
+    margin: 0;
+}
+
+.top21 {
+    border: 3px solid rgb(0, 0, 200);
+    flex: 0.4;
+    position: relative;
+}
+
+#top21 {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 200);
+    transition: all 0.3s ease-in-out;
+}
+
+.top22 {
+    border: 3px solid rgb(0, 0, 200);
+    flex: 0.6;
+    position: relative;
+}
+
+#top22 {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 200);
+    transition: all 0.3s ease-in-out;
+}
+
+.top3 {
+    border: 3px solid rgb(0, 0, 200);
+    border-top-right-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#top3 {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgb(0, 0, 200);
+    transition: all 0.3s ease-in-out;
+}
+
+.down1 {
+    border: 3px solid rgb(0, 0, 200);
+    flex: 0.6;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#down1 {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 200);
+    transition: all 0.3s ease-in-out;
+}
+
+.down2 {
+    border: 3px solid rgb(0, 0, 200);
+    flex: 0.4;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#down2 {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 200);
+    transition: all 0.3s ease-in-out;
+}
